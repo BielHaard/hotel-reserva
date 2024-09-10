@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Esta API fornece funcionalidades para buscar hotéis com base em localizações. Utiliza Spring Boot 3.x, JDK 17 e banco de dados PostgreSQL.
+Esta API fornece funcionalidades para cadastrar, buscar e fazer reservas em hotéis com base em localizações.
 
 ## Tecnologias
 
@@ -10,13 +10,7 @@ Esta API fornece funcionalidades para buscar hotéis com base em localizações.
 - **Spring Boot**: 3.x
 - **Banco de Dados**: PostgreSQL
 
-## Endpoints
+## Endpoints - Consulte nosso Swagger
 
-### Buscar Hotéis
+- **URL**: baseUrl + `/swagger-ui`
 
-- **URL**: `/hotels/search`
-- **Método**: `POST`
-- **Descrição**: Busca hotéis com base na localização fornecida.
-- **Corpo da Requisição**:
-
-  ```json
